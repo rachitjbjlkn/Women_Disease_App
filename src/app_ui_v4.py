@@ -122,7 +122,11 @@ if 'page' not in st.session_state:
 
 # Sidebar navigation
 with st.sidebar:
-    st.image("data/IMG-20260226-WA0017.jpg", width=180)
+    st.markdown("""
+        <div style='text-align: center; padding-top: 10px; padding-bottom: 10px;'>
+            <img src='' width='170' style='border-radius: 10px;'>
+        </div>
+    """, unsafe_allow_html=True)
     st.markdown("""
 <div style='text-align: center; padding: 10px;'>
     <h4 style='margin-top: 10px;'>SVU Medical AI</h4>
