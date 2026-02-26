@@ -123,7 +123,7 @@ if 'page' not in st.session_state:
 # Sidebar navigation
 with st.sidebar:
 
-    st.image("data/IMG-20260226-WA0017-removebg-preview.png", width=170)
+    st.image("data/IMG-20260226-WA0017-removebg-preview.png", width=140)
     st.markdown("""
 <div style='padding: 7;'>
     <h4 style='margin-top: 10px;'>Biobuilders🩺</h4>
