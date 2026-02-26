@@ -124,7 +124,7 @@ if 'page' not in st.session_state:
 with st.sidebar:
     st.markdown("""
         <div style='text-align: center; padding-top: 10px; padding-bottom: 10px;'>
-            <img src='' width='170' style='border-radius: 10px;'>
+            <img src='data/IMG-20260226-WA0017.jpg' width='170' style='border-radius: 10px;'>
         </div>
     """, unsafe_allow_html=True)
     st.markdown("""
