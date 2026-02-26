@@ -120,8 +120,9 @@ st.markdown("""
 if 'page' not in st.session_state:
     st.session_state.page = "Home"
 
-# Sidebar navigation
+# Sidebar navigati
 with st.sidebar:
+    st.markdown("### 🗂️ Navigation") 
     # Logo at the top
     st.image("path_to_your_logo.png", width=180)  # Replace with actual path
     
@@ -139,8 +140,6 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
     st.markdown("---")
-with st.sidebar:
-    st.markdown("### 🗂️ Navigation")
     
     pages = {
         "🏠 Home": "Home",
@@ -1363,4 +1362,5 @@ elif st.session_state.page == "About":
     ### Support
     For issues or questions, please refer to the documentation or contact support.
     """)
+
 
