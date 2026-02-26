@@ -122,24 +122,6 @@ if 'page' not in st.session_state:
 
 # Sidebar navigati
 with st.sidebar:
-    st.markdown("### 🗂️ Navigation") 
-    # Logo at the top
-    st.image("path_to_your_logo.png", width=180)  # Replace with actual path
-    
-    st.markdown("""
-    <div style='text-align: center; margin-top: 10px; margin-bottom: 20px;'>
-        <h4 style='margin-bottom: 5px;'>App Makers</h4>
-        <p style='font-size: 13px; line-height: 1.6;'>
-            Rachit Rahaman<br>
-            Parineeta Saha<br>
-            Ishika Thapa<br>
-            Ankita Patra<br>
-            Sudipta Pariyari
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.markdown("---")
     
     pages = {
         "🏠 Home": "Home",
@@ -1362,5 +1344,6 @@ elif st.session_state.page == "About":
     ### Support
     For issues or questions, please refer to the documentation or contact support.
     """)
+
 
 
