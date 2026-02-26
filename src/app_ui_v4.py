@@ -122,9 +122,9 @@ if 'page' not in st.session_state:
 
 # Sidebar navigation
 with st.sidebar:
+    st.image("data/", width=180)
     st.markdown("""
 <div style='text-align: center; padding: 10px;'>
-    <img src='data/IMG-20260226-WA0017.jpg' width='170'>
     <h4 style='margin-top: 10px;'>SVU Medical AI</h4>
     <p style='font-size: 12px; opacity: 0.8;'>
         Developed by:<br>
