@@ -124,7 +124,7 @@ if 'page' not in st.session_state:
 with st.sidebar:
     st.markdown("""
 <div style='text-align: center; padding: 10px;'>
-    <img src='data/svu_logo.png' width='170'>
+    <img src='data/IMG-20260226-WA0017.jpg' width='170'>
     <h4 style='margin-top: 10px;'>SVU Medical AI</h4>
     <p style='font-size: 12px; opacity: 0.8;'>
         Developed by:<br>
