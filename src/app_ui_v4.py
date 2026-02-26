@@ -140,7 +140,7 @@ with st.sidebar:
 
 st.markdown("---")
     
-    pages = {
+ pages = {
         "🏠 Home": "Home",
         "� Patient Prediction": "PatientPrediction",
         "�🔬 Ultrasound Analysis": "Ultrasound",
@@ -1361,6 +1361,7 @@ elif st.session_state.page == "About":
     ### Support
     For issues or questions, please refer to the documentation or contact support.
     """)
+
 
 
 
