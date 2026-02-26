@@ -122,6 +122,23 @@ if 'page' not in st.session_state:
 
 # Sidebar navigati
 with st.sidebar:
+    st.image("assets/svu_logo.png", width=180)
+    st.markdown("""
+<div style='text-align: center; padding: 10px;'>
+    <img src='assets/svu_logo.png' width='170'>
+    <h4 style='margin-top: 10px;'>SVU Medical AI</h4>
+    <p style='font-size: 12px; opacity: 0.8;'>
+        Developed by:<br>
+        Rachit Rahaman<br>
+        Parineeta Saha<br>
+        Ishika Thapa<br>
+        Ankita Patra<br>
+        Sudipta Pariyari
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
     
     pages = {
         "🏠 Home": "Home",
@@ -1344,6 +1361,7 @@ elif st.session_state.page == "About":
     ### Support
     For issues or questions, please refer to the documentation or contact support.
     """)
+
 
 
 
