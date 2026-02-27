@@ -133,7 +133,7 @@ with st.sidebar:
         Parineeta Saha<br>
         Ishika Thapa<br>
         Ankita Patra<br>
-        Sudipta Pariyari
+        Sudipta Pariary
     </p>
 </div>
 """, unsafe_allow_html=True)
