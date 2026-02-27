@@ -125,7 +125,7 @@ with st.sidebar:
 
     st.image("data/IMG-20260226-WA0017-removebg-preview.png", width=300)
     st.markdown("""
-<div style='padding: 7;'>
+<div style='text-align:centre ';'padding: 7;'>
     <h4 style='margin-top: 10px;'>Biobuilders🩺</h4>
     <p style='font-size: 12px; opacity: 0.8;'>
         Developed by:<br>
